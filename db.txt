@@ -1,0 +1,53 @@
+/* ---------- Tablas principales ---------- */
+CREATE TABLE hoteles (
+  id SERIAL PRIMARY KEY,
+  nombre VARCHAR(100) NOT NULL,
+  direccion VARCHAR(200)
+);
+
+CREATE TABLE peliculas (
+  id SERIAL PRIMARY KEY,
+  titulo VARCHAR(255) NOT NULL,
+  descripcion TEXT,
+  duracion INTEGER,
+  ano VARCHAR(50)
+);
+
+CREATE TABLE categorias (
+  id SERIAL PRIMARY KEY,
+  nombre VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE peliculas_categorias (
+  id_pelicula INTEGER REFERENCES peliculas(id) ON DELETE CASCADE,
+  id_categoria INTEGER REFERENCES categorias(id) ON DELETE CASCADE
+);
+
+CREATE TABLE comentarios (
+  id SERIAL PRIMARY KEY,
+  id_pelicula INTEGER REFERENCES peliculas(id) ON DELETE CASCADE,
+  texto TEXT,
+  autor VARCHAR(100),
+  fecha DATE
+);
+
+CREATE TABLE usuarios (
+  id SERIAL PRIMARY KEY,
+  email VARCHAR(100) UNIQUE,
+  password VARCHAR(100),
+  nombre VARCHAR(100)
+);
+
+/* ---------- Datos de prueba ---------- */
+INSERT INTO hoteles(nombre,direccion) VALUES ('Hilton','NY'),('Ritz','Madrid');
+
+INSERT INTO categorias(nombre) VALUES ('Acción'),('Drama'),('Comedia'),('Terror');
+
+INSERT INTO peliculas(titulo,descripcion,duracion,ano) VALUES
+('Titanic','Romance en barco',195,'1997'),
+('Shrek','Ogro vacilón',90,'2001'),
+('It','Payaso terror',135,'2017');
+
+INSERT INTO peliculas_categorias VALUES (1,2),(2,3),(3,4);
+
+INSERT INTO usuarios(email,password,nombre) VALUES ('a@b.com','123','Alba');
