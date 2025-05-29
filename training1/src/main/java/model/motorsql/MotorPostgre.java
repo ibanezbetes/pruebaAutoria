@@ -12,19 +12,18 @@ public class MotorPostgre implements MotorSQL {
     private static final String USER = "postgres";
     private static final String PASS = "1234";
 
-    @Override
     public void connect() {
         try {
             Class.forName("org.postgresql.Driver");
             conn = DriverManager.getConnection(URL, USER, PASS);
             st   = conn.createStatement();
-            System.out.println("[MotorPostgre] Conexión OK");
+            System.out.println("[DB] Conexión OK");
         } catch (Exception e) {
-            // ← esto sí se estaba ejecutando, pero sin que lo vieses en el navegador
-            e.printStackTrace();                  // imprime stack en log de Tomcat
-            throw new RuntimeException("DB FAIL", e); // hace que el servlet muestre 500 con causa real
+            e.printStackTrace();                 // ← mira el stack completo
+            throw new RuntimeException("DB FAIL", e);
         }
     }
+
 
 
     @Override

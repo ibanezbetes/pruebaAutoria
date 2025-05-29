@@ -1,37 +1,50 @@
 package model.controller;
 
 import model.services.*;
-
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.*;
-
+import javax.servlet.annotation.WebServlet;     // javax.*
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet("/Controller")
 public class Controller extends HttpServlet {
+
+    /* ---------- Lectura (GET) ---------- */
     @Override
-    protected void doGet(HttpServletRequest rq, HttpServletResponse rs)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest rq,HttpServletResponse rs) throws IOException {
         rs.setContentType("application/json;charset=UTF-8");
-        rs.setHeader("Access-Control-Allow-Origin", "*");
+        rs.setHeader("Access-Control-Allow-Origin","*");
 
-        String act = rq.getParameter("ACTION");
-        if (act == null) { rs.getWriter().print("{\"error\":\"no ACTION\"}"); return; }
+        String act=rq.getParameter("ACTION");
+        if(act==null){ rs.getWriter().print("{\"error\":\"no ACTION\"}"); return; }
 
-        String entidad = act.split("\\.")[0].toUpperCase();
-        IAction action;
-        switch (entidad) {
-            case "HOTEL":      action = new HotelAction();      break;
-            case "PELICULA":   action = new PeliculaAction();   break;
-            case "COMENTARIO": action = new ComentarioAction(); break;
-            case "USUARIO":    action = new UsuarioAction();    break;
-            default:
-                rs.getWriter().print("{\"error\":\"Entidad desconocida\"}");
-                return;
-        }
-        PrintWriter out = rs.getWriter();
-        out.print(action.execute(rq, rs));
+        IAction action = switch(act.split("\\.")[0].toUpperCase()){
+            case "PELICULA"   -> new PeliculaAction();   // Filtro / buscador
+            case "COMENTARIO" -> new ComentarioAction(); // LIST
+            default -> null;
+        };
+        if(action==null){ rs.getWriter().print("{\"error\":\"GET no soportado\"}"); return; }
+        PrintWriter out=rs.getWriter();
+        out.print(action.execute(rq,rs));
+    }
+
+    /* ---------- Escritura (POST) -------- */
+    @Override
+    protected void doPost(HttpServletRequest rq,HttpServletResponse rs) throws IOException {
+        rs.setContentType("application/json;charset=UTF-8");
+        rs.setHeader("Access-Control-Allow-Origin","*");
+
+        String act=rq.getParameter("ACTION");
+        if(act==null){ rs.getWriter().print("{\"error\":\"no ACTION\"}"); return; }
+
+        IAction action = switch(act.split("\\.")[0].toUpperCase()){
+            case "HOTEL"      -> new HotelAction();
+            case "COMENTARIO" -> new ComentarioAction(); // ADD
+            case "USUARIO"    -> new UsuarioAction();
+            default -> null;
+        };
+        if(action==null){ rs.getWriter().print("{\"error\":\"POST no soportado\"}"); return; }
+        PrintWriter out=rs.getWriter();
+        out.print(action.execute(rq,rs));
     }
 }
