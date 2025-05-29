@@ -1,57 +1,56 @@
-/* ----- Config ----- */
-const BASE = "http://localhost:8080/miProyectoBackend/peliculas";
+/* Ajusta BASE_URL si cambias WAR o puerto */
+const BASE_URL = "http://localhost:8080/miProyectoBackend/Controller";
 
-/* ----- Carga inicial (todas) ----- */
-document.addEventListener("DOMContentLoaded", () => pedirPeliculas(""));
-
-/* ----- Botonera género ----- */
-document.getElementById("botonera").addEventListener("click", e => {
-  if (e.target.tagName === "BUTTON") {
-    const genero = e.target.dataset.genero;
-    pedirPeliculas(genero);            // ?genero=Drama   (o vacío para todas)
-  }
-});
-
-/* ----- Buscador título ----- */
-document.getElementById("formBuscar").addEventListener("submit", e => {
-  e.preventDefault();
-  const texto = document.getElementById("buscador").value.trim();
-  if (texto.length === 0) return;
-  buscarPorTitulo(texto);              // ?titulo=ti
-});
-
-function buscarPorTitulo(txt) {
-  fetch(`${BASE}?titulo=${encodeURIComponent(txt)}`)
-    .then(r => r.json())
-    .then(pintar)
-    .catch(console.error);
+/* ------------ util para mostrar JSON bonito ------------- */
+function show(outEl, data){
+  outEl.innerHTML = Array.isArray(data)
+    ? data.map(toCard).join("")
+    : `<pre>${JSON.stringify(data,null,2)}</pre>`;
+}
+function toCard(p){
+  return `<div class="card">
+            <strong>${p.titulo||p.nombre||"–"}</strong><br>
+            ${p.descripcion||p.direccion||p.texto||""}
+          </div>`;
 }
 
-/* ----- Petición por género o todas ----- */
-function pedirPeliculas(genero) {
-  const url = genero ? `${BASE}?genero=${encodeURIComponent(genero)}` : BASE;
-  fetch(url)
-    .then(r => r.json())
-    .then(pintar)
-    .catch(console.error);
-}
+/* ------------ LOGIN ------------------------------------- */
+document.getElementById("btnLogin").onclick = () =>{
+  const email = document.getElementById("loginMail").value;
+  const pass  = document.getElementById("loginPass").value;
+  fetch(`${BASE_URL}?ACTION=USUARIO.LOGIN&email=${email}&pass=${pass}`)
+   .then(r=>r.json()).then(d=>show(loginOut,d));
+};
 
-/* ----- Pintar tarjetas ----- */
-function pintar(lista) {
-  const cont = document.getElementById("pelis");
-  cont.innerHTML = "";
-  if (lista.length === 0) {
-    cont.textContent = "No hay resultados";
-    return;
-  }
-  lista.forEach(p => {
-    const div = document.createElement("div");
-    div.className = "card";
-    div.innerHTML = `
-      <h3>${p.titulo}</h3>
-      <p><strong>Año:</strong> ${p.ano}</p>
-      <p><strong>Duración:</strong> ${p.duracion} min</p>
-      <p>${p.descripcion}</p>`;
-    cont.appendChild(div);
-  });
-}
+/* ------------ ALTA HOTEL -------------------------------- */
+document.getElementById("btnHotel").onclick = () =>{
+  const n = hotelNombre.value, d = hotelDireccion.value;
+  fetch(`${BASE_URL}?ACTION=HOTEL.ADD&nombre=${encodeURIComponent(n)}&direccion=${encodeURIComponent(d)}`)
+   .then(r=>r.json()).then(d=>show(hotelOut,d));
+};
+
+/* ------------ PELIS POR GÉNERO -------------------------- */
+document.getElementById("btnGenero").onclick = () =>{
+  const g = selGenero.value;
+  fetch(`${BASE_URL}?ACTION=PELICULA.FIND&genero=${encodeURIComponent(g)}`)
+   .then(r=>r.json()).then(d=>show(pelisOut,d));
+};
+
+/* ------------ BUSCADOR TÍTULO --------------------------- */
+document.getElementById("btnSearch").onclick = () =>{
+  const q = searchTxt.value;
+  fetch(`${BASE_URL}?ACTION=PELICULA.SEARCH&search=${encodeURIComponent(q)}`)
+   .then(r=>r.json()).then(d=>show(searchOut,d));
+};
+
+/* ------------ COMENTARIOS ------------------------------- */
+btnComAdd.onclick = () =>{
+  const id = comPelId.value, txt = comTexto.value, aut = comAutor.value;
+  fetch(`${BASE_URL}?ACTION=COMENTARIO.ADD&modo=ADD&idPel=${id}&texto=${encodeURIComponent(txt)}&autor=${encodeURIComponent(aut)}`)
+   .then(r=>r.json()).then(d=>show(comOut,d));
+};
+btnComList.onclick = () =>{
+  const id = comPelId.value;
+  fetch(`${BASE_URL}?ACTION=COMENTARIO.LIST&modo=LIST&idPel=${id}`)
+   .then(r=>r.json()).then(d=>show(comOut,d));
+};
