@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Películas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Cartelera</h1>
+
+<!-- Buscador -->
+<form id="formBuscar">
+    <input type="text" id="buscador" placeholder="Buscar título..." />
+    <button type="submit">Buscar</button>
+</form>
+
+<!-- Botonera de género -->
+<div id="botonera">
+    <button data-genero="">Todos</button>
+    <button data-genero="Acción">Acción</button>
+    <button data-genero="Drama">Drama</button>
+    <button data-genero="Comedia">Comedia</button>
+    <button data-genero="Terror">Terror</button>
+</div>
+
+<!-- Tarjetas -->
+<div id="pelis"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
