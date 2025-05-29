@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:06:21 +0200] "GET /miProyectoBackend/Controller?ACTION=PELICULA.SEARCH&search= HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:06:22 +0200] "GET /miProyectoBackend/Controller?ACTION=PELICULA.FIND&genero= HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:06:22 +0200] "GET /miProyectoBackend/Controller?ACTION=PELICULA.FIND&genero= HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:06:49 +0200] "GET /miProyectoBackend/Controller?ACTION=PELICULA.FIND&genero= HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:06:55 +0200] "POST /miProyectoBackend/Controller HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:06:56 +0200] "POST /miProyectoBackend/Controller HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:07:01 +0200] "POST /miProyectoBackend/Controller HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:09:25 +0200] "GET /miProyectoBackend/Controller?ACTION=PELICULA.FIND&genero= HTTP/1.1" 200 254
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:09:25 +0200] "GET /miProyectoBackend/Controller?ACTION=PELICULA.FIND&genero= HTTP/1.1" 200 254
+0:0:0:0:0:0:0:1 - - [29/May/2025:23:10:25 +0200] "GET /miProyectoBackend/Controller?ACTION=PELICULA.FIND&genero= HTTP/1.1" 200 254

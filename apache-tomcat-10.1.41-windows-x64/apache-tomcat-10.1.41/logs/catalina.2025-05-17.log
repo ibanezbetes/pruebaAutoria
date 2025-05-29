@@ -1,0 +1,466 @@
+17-May-2025 12:19:42.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.41
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      May 8 2025 12:44:02 UTC
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.41.0
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Danie\Downloads\jdk-17.0.12_windows-x64_bin\jdk-17.0.12
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.12+8-LTS-286
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:19:42.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\logging.properties
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:19:42.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\temp
+17-May-2025 12:19:42.272 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+17-May-2025 12:19:42.319 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+17-May-2025 12:19:42.923 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-May-2025 12:19:42.987 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1531] milliseconds
+17-May-2025 12:19:43.098 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-May-2025 12:19:43.098 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+17-May-2025 12:19:43.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml]
+17-May-2025 12:19:43.209 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Se ha especificado un docBase [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps] dentro del appBase de la máquina y será ignorado
+17-May-2025 12:19:44.532 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 12:19:44.802 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [207] milliseconds.
+17-May-2025 12:19:44.882 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] has finished in [1.752] ms
+17-May-2025 12:19:44.978 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] de la aplicación web
+17-May-2025 12:19:45.148 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] has finished in [170] ms
+17-May-2025 12:19:45.150 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] de la aplicación web
+17-May-2025 12:19:45.298 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] has finished in [148] ms
+17-May-2025 12:19:45.298 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] de la aplicación web
+17-May-2025 12:19:49.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] has finished in [4.033] ms
+17-May-2025 12:19:49.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] de la aplicación web
+17-May-2025 12:19:49.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] has finished in [159] ms
+17-May-2025 12:19:49.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] de la aplicación web
+17-May-2025 12:19:49.616 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] has finished in [126] ms
+17-May-2025 12:19:49.632 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 12:19:49.838 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6855] milliseconds
+17-May-2025 12:20:31.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.41
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      May 8 2025 12:44:02 UTC
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.41.0
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Danie\Downloads\jdk-17.0.12_windows-x64_bin\jdk-17.0.12
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.12+8-LTS-286
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:20:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\logging.properties
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\temp
+17-May-2025 12:20:31.712 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+17-May-2025 12:20:31.722 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+17-May-2025 12:20:31.887 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-May-2025 12:20:31.903 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [360] milliseconds
+17-May-2025 12:20:31.934 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-May-2025 12:20:31.934 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+17-May-2025 12:20:31.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml]
+17-May-2025 12:20:31.966 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Se ha especificado un docBase [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps] dentro del appBase de la máquina y será ignorado
+17-May-2025 12:20:32.294 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 12:20:32.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] has finished in [438] ms
+17-May-2025 12:20:32.388 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] de la aplicación web
+17-May-2025 12:20:32.436 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] has finished in [48] ms
+17-May-2025 12:20:32.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] de la aplicación web
+17-May-2025 12:20:32.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] has finished in [15] ms
+17-May-2025 12:20:32.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] de la aplicación web
+17-May-2025 12:20:32.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] has finished in [259] ms
+17-May-2025 12:20:32.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] de la aplicación web
+17-May-2025 12:20:32.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] has finished in [26] ms
+17-May-2025 12:20:32.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] de la aplicación web
+17-May-2025 12:20:32.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] has finished in [32] ms
+17-May-2025 12:20:32.768 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 12:20:32.816 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [911] milliseconds
+17-May-2025 12:26:29.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.41
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      May 8 2025 12:44:02 UTC
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.41.0
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Danie\.jdks\openjdk-23
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23+37-2369
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:26:29.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:26:29.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 12:26:29.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 12:26:29.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 12:26:29.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 12:26:29.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 12:26:29.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:26:29.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:26:29.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\temp
+17-May-2025 12:26:29.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\logging.properties
+17-May-2025 12:26:29.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 12:26:29.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Users\Danie\OneDrive\Escritorio\COSAS CLASE\APLICACIONES\IntelliJ IDEA Community Edition 2024.2.3\lib\idea_rt.jar=64043:C:\Users\Danie\OneDrive\Escritorio\COSAS CLASE\APLICACIONES\IntelliJ IDEA Community Edition 2024.2.3\bin
+17-May-2025 12:26:29.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+17-May-2025 12:26:29.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stdout.encoding=UTF-8
+17-May-2025 12:26:29.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stderr.encoding=UTF-8
+17-May-2025 12:26:29.494 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+17-May-2025 12:26:29.499 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+17-May-2025 12:26:29.816 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-May-2025 12:26:29.830 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [556] milliseconds
+17-May-2025 12:26:29.880 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-May-2025 12:26:29.880 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+17-May-2025 12:26:29.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml]
+17-May-2025 12:26:29.909 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] with an external docBase means the directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\ROOT] in the appBase will be ignored
+17-May-2025 12:26:30.323 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 12:26:30.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] has finished in [473] ms
+17-May-2025 12:26:30.367 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] de la aplicación web
+17-May-2025 12:26:30.397 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] has finished in [30] ms
+17-May-2025 12:26:30.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] de la aplicación web
+17-May-2025 12:26:30.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] has finished in [24] ms
+17-May-2025 12:26:30.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] de la aplicación web
+17-May-2025 12:26:30.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] has finished in [253] ms
+17-May-2025 12:26:30.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] de la aplicación web
+17-May-2025 12:26:30.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] has finished in [27] ms
+17-May-2025 12:26:30.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] de la aplicación web
+17-May-2025 12:26:30.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] has finished in [23] ms
+17-May-2025 12:26:30.729 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 12:26:30.746 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [914] milliseconds
+17-May-2025 12:38:44.419 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-May-2025 12:38:44.423 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+17-May-2025 12:38:44.443 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-May-2025 12:38:44.447 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-May-2025 12:43:07.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.41
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      May 8 2025 12:44:02 UTC
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.41.0
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Danie\.jdks\openjdk-23
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23+37-2369
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:43:07.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:43:07.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 12:43:07.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 12:43:07.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\temp
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\logging.properties
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Users\Danie\OneDrive\Escritorio\COSAS CLASE\APLICACIONES\IntelliJ IDEA Community Edition 2024.2.3\lib\idea_rt.jar=64349:C:\Users\Danie\OneDrive\Escritorio\COSAS CLASE\APLICACIONES\IntelliJ IDEA Community Edition 2024.2.3\bin
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+17-May-2025 12:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stdout.encoding=UTF-8
+17-May-2025 12:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stderr.encoding=UTF-8
+17-May-2025 12:43:07.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+17-May-2025 12:43:07.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+17-May-2025 12:43:08.116 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-May-2025 12:43:08.126 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [604] milliseconds
+17-May-2025 12:43:08.165 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-May-2025 12:43:08.166 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+17-May-2025 12:43:08.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml]
+17-May-2025 12:43:08.191 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] with an external docBase means the directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\ROOT] in the appBase will be ignored
+17-May-2025 12:43:08.585 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 12:43:08.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] has finished in [446] ms
+17-May-2025 12:43:08.661 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] de la aplicación web
+17-May-2025 12:43:08.711 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] has finished in [49] ms
+17-May-2025 12:43:08.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] de la aplicación web
+17-May-2025 12:43:08.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] has finished in [51] ms
+17-May-2025 12:43:08.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] de la aplicación web
+17-May-2025 12:43:11.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] has finished in [2.357] ms
+17-May-2025 12:43:11.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] de la aplicación web
+17-May-2025 12:43:11.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] has finished in [67] ms
+17-May-2025 12:43:11.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] de la aplicación web
+17-May-2025 12:43:11.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] has finished in [62] ms
+17-May-2025 12:43:11.253 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 12:43:11.272 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3144] milliseconds
+17-May-2025 13:16:14.582 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-May-2025 13:16:14.586 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+17-May-2025 13:16:14.608 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-May-2025 13:16:14.625 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-May-2025 13:22:52.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.41
+17-May-2025 13:22:52.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      May 8 2025 12:44:02 UTC
+17-May-2025 13:22:52.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.41.0
+17-May-2025 13:22:52.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+17-May-2025 13:22:52.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-May-2025 13:22:52.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-May-2025 13:22:52.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Danie\Downloads\jdk-17.0.12_windows-x64_bin\jdk-17.0.12
+17-May-2025 13:22:52.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.12+8-LTS-286
+17-May-2025 13:22:52.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-May-2025 13:22:52.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 13:22:52.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 13:22:52.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\logging.properties
+17-May-2025 13:22:52.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 13:22:52.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 13:22:52.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 13:22:52.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+17-May-2025 13:22:52.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 13:22:52.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 13:22:52.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 13:22:52.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 13:22:52.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 13:22:52.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 13:22:52.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 13:22:52.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 13:22:52.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\temp
+17-May-2025 13:22:52.355 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+17-May-2025 13:22:52.359 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+17-May-2025 13:22:52.548 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-May-2025 13:22:52.597 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [429] milliseconds
+17-May-2025 13:22:52.642 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-May-2025 13:22:52.642 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+17-May-2025 13:22:52.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml]
+17-May-2025 13:22:52.673 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] with an external docBase means the directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\ROOT] in the appBase will be ignored
+17-May-2025 13:22:53.017 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 13:22:53.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] has finished in [447] ms
+17-May-2025 13:22:53.103 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] de la aplicación web
+17-May-2025 13:22:53.138 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] has finished in [34] ms
+17-May-2025 13:22:53.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] de la aplicación web
+17-May-2025 13:22:53.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] has finished in [38] ms
+17-May-2025 13:22:53.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] de la aplicación web
+17-May-2025 13:22:53.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] has finished in [314] ms
+17-May-2025 13:22:53.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] de la aplicación web
+17-May-2025 13:22:53.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] has finished in [35] ms
+17-May-2025 13:22:53.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] de la aplicación web
+17-May-2025 13:22:53.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] has finished in [32] ms
+17-May-2025 13:22:53.568 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 13:22:53.622 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1024] milliseconds
+17-May-2025 14:26:18.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.41
+17-May-2025 14:26:18.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      May 8 2025 12:44:02 UTC
+17-May-2025 14:26:18.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.41.0
+17-May-2025 14:26:18.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+17-May-2025 14:26:18.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-May-2025 14:26:18.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-May-2025 14:26:18.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Danie\Downloads\jdk-17.0.12_windows-x64_bin\jdk-17.0.12
+17-May-2025 14:26:18.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.12+8-LTS-286
+17-May-2025 14:26:18.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-May-2025 14:26:18.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:26:18.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:26:18.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\logging.properties
+17-May-2025 14:26:18.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 14:26:18.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 14:26:18.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 14:26:18.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+17-May-2025 14:26:18.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 14:26:18.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 14:26:18.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 14:26:18.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 14:26:18.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 14:26:18.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 14:26:18.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:26:18.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:26:18.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\temp
+17-May-2025 14:26:18.977 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+17-May-2025 14:26:19.032 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+17-May-2025 14:26:19.601 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-May-2025 14:26:19.647 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1596] milliseconds
+17-May-2025 14:26:19.755 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-May-2025 14:26:19.756 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+17-May-2025 14:26:19.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml]
+17-May-2025 14:26:19.855 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] with an external docBase means the directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\ROOT] in the appBase will be ignored
+17-May-2025 14:26:21.075 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 14:26:21.342 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [195] milliseconds.
+17-May-2025 14:26:21.411 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] has finished in [1.630] ms
+17-May-2025 14:26:21.445 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] de la aplicación web
+17-May-2025 14:26:21.453 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend] was found with a last modified time that did not match the associated WAR. It will be deleted.
+17-May-2025 14:26:22.135 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 14:26:22.146 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] has finished in [701] ms
+17-May-2025 14:26:22.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] de la aplicación web
+17-May-2025 14:26:22.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] has finished in [122] ms
+17-May-2025 14:26:22.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] de la aplicación web
+17-May-2025 14:26:25.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] has finished in [2.770] ms
+17-May-2025 14:26:25.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] de la aplicación web
+17-May-2025 14:26:25.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] has finished in [125] ms
+17-May-2025 14:26:25.167 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] de la aplicación web
+17-May-2025 14:26:25.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] has finished in [126] ms
+17-May-2025 14:26:25.307 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 14:26:25.524 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5876] milliseconds
+17-May-2025 14:28:56.383 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+17-May-2025 14:28:56.387 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Error stopping Catalina
+	java.net.ConnectException: Connection refused: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/java.net.Socket.<init>(Socket.java:507)
+		at java.base/java.net.Socket.<init>(Socket.java:287)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:657)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:393)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+17-May-2025 14:29:31.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.41
+17-May-2025 14:29:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      May 8 2025 12:44:02 UTC
+17-May-2025 14:29:31.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.41.0
+17-May-2025 14:29:31.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+17-May-2025 14:29:31.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-May-2025 14:29:31.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-May-2025 14:29:31.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Danie\Downloads\jdk-17.0.12_windows-x64_bin\jdk-17.0.12
+17-May-2025 14:29:31.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.12+8-LTS-286
+17-May-2025 14:29:31.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-May-2025 14:29:31.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:29:31.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:29:31.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\logging.properties
+17-May-2025 14:29:31.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 14:29:31.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 14:29:31.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 14:29:31.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+17-May-2025 14:29:31.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 14:29:31.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 14:29:31.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 14:29:31.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 14:29:31.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 14:29:31.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 14:29:31.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:29:31.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:29:31.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\temp
+17-May-2025 14:29:31.453 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+17-May-2025 14:29:31.457 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+17-May-2025 14:29:31.618 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-May-2025 14:29:31.632 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [343] milliseconds
+17-May-2025 14:29:31.669 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-May-2025 14:29:31.669 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+17-May-2025 14:29:31.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml]
+17-May-2025 14:29:31.695 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] with an external docBase means the directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\ROOT] in the appBase will be ignored
+17-May-2025 14:29:32.018 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 14:29:32.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] has finished in [412] ms
+17-May-2025 14:29:32.125 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] de la aplicación web
+17-May-2025 14:29:32.328 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 14:29:32.331 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] has finished in [206] ms
+17-May-2025 14:29:32.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] de la aplicación web
+17-May-2025 14:29:32.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] has finished in [23] ms
+17-May-2025 14:29:32.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] de la aplicación web
+17-May-2025 14:29:32.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] has finished in [258] ms
+17-May-2025 14:29:32.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] de la aplicación web
+17-May-2025 14:29:32.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] has finished in [29] ms
+17-May-2025 14:29:32.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] de la aplicación web
+17-May-2025 14:29:32.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] has finished in [25] ms
+17-May-2025 14:29:32.674 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 14:29:32.724 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1090] milliseconds
+17-May-2025 14:33:58.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.41
+17-May-2025 14:33:58.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      May 8 2025 12:44:02 UTC
+17-May-2025 14:33:58.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.41.0
+17-May-2025 14:33:58.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+17-May-2025 14:33:58.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-May-2025 14:33:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-May-2025 14:33:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Danie\Downloads\jdk-17.0.12_windows-x64_bin\jdk-17.0.12
+17-May-2025 14:33:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.12+8-LTS-286
+17-May-2025 14:33:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-May-2025 14:33:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:33:58.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:33:58.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\logging.properties
+17-May-2025 14:33:58.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 14:33:58.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 14:33:58.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 14:33:58.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+17-May-2025 14:33:58.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 14:33:58.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 14:33:58.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 14:33:58.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 14:33:58.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 14:33:58.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 14:33:58.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:33:58.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:33:58.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\temp
+17-May-2025 14:33:58.134 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+17-May-2025 14:33:58.139 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+17-May-2025 14:33:58.299 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-May-2025 14:33:58.317 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [344] milliseconds
+17-May-2025 14:33:58.354 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-May-2025 14:33:58.354 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+17-May-2025 14:33:58.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml]
+17-May-2025 14:33:58.383 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] with an external docBase means the directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\ROOT] in the appBase will be ignored
+17-May-2025 14:33:58.699 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 14:33:58.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] has finished in [437] ms
+17-May-2025 14:33:58.808 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] de la aplicación web
+17-May-2025 14:33:58.929 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 14:33:58.932 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] has finished in [124] ms
+17-May-2025 14:33:58.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] de la aplicación web
+17-May-2025 14:33:58.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] has finished in [24] ms
+17-May-2025 14:33:58.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] de la aplicación web
+17-May-2025 14:33:59.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] has finished in [257] ms
+17-May-2025 14:33:59.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] de la aplicación web
+17-May-2025 14:33:59.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] has finished in [28] ms
+17-May-2025 14:33:59.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] de la aplicación web
+17-May-2025 14:33:59.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] has finished in [25] ms
+17-May-2025 14:33:59.274 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 14:33:59.323 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1006] milliseconds
+17-May-2025 14:35:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.41
+17-May-2025 14:35:47.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      May 8 2025 12:44:02 UTC
+17-May-2025 14:35:47.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.41.0
+17-May-2025 14:35:47.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+17-May-2025 14:35:47.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-May-2025 14:35:47.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-May-2025 14:35:47.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Danie\Downloads\jdk-17.0.12_windows-x64_bin\jdk-17.0.12
+17-May-2025 14:35:47.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.12+8-LTS-286
+17-May-2025 14:35:47.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-May-2025 14:35:47.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:35:47.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:35:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\logging.properties
+17-May-2025 14:35:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 14:35:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 14:35:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 14:35:47.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+17-May-2025 14:35:47.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 14:35:47.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 14:35:47.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 14:35:47.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 14:35:47.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 14:35:47.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 14:35:47.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:35:47.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41
+17-May-2025 14:35:47.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\temp
+17-May-2025 14:35:47.572 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+17-May-2025 14:35:47.577 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+17-May-2025 14:35:47.737 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-May-2025 14:35:47.754 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [342] milliseconds
+17-May-2025 14:35:47.788 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-May-2025 14:35:47.790 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+17-May-2025 14:35:47.799 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml]
+17-May-2025 14:35:47.815 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] with an external docBase means the directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\ROOT] in the appBase will be ignored
+17-May-2025 14:35:48.171 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 14:35:48.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\conf\Catalina\localhost\ROOT.xml] has finished in [452] ms
+17-May-2025 14:35:48.281 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] de la aplicación web
+17-May-2025 14:35:48.491 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-May-2025 14:35:48.494 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\backend.war] has finished in [212] ms
+17-May-2025 14:35:48.494 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] de la aplicación web
+17-May-2025 14:35:48.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\docs] has finished in [26] ms
+17-May-2025 14:35:48.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] de la aplicación web
+17-May-2025 14:35:48.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\examples] has finished in [281] ms
+17-May-2025 14:35:48.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] de la aplicación web
+17-May-2025 14:35:48.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\host-manager] has finished in [31] ms
+17-May-2025 14:35:48.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] de la aplicación web
+17-May-2025 14:35:48.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Danie\Downloads\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\webapps\manager] has finished in [27] ms
+17-May-2025 14:35:48.865 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 14:35:48.916 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1163] milliseconds
