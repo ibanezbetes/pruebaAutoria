@@ -33,7 +33,7 @@ public class Controller extends HttpServlet {
     protected void doPost(HttpServletRequest rq,HttpServletResponse rs) throws IOException {
         rs.setContentType("application/json;charset=UTF-8");
         rs.setHeader("Access-Control-Allow-Origin","*");
-        rs.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+        
 
         String act=rq.getParameter("ACTION");
         if(act==null){ rs.getWriter().print("{\"error\":\"no ACTION\"}"); return; }
